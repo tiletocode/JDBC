@@ -9,7 +9,7 @@ public class NoticeService {
     //다른 쿼리메소드 실행시에도 변하지 않으므로 메소드밖에 선언
     private final String url = "jdbc:mysql://ledx-1.c0puka4oucjv.ap-northeast-2.rds.amazonaws.com/Newlec";
     private final String uid = "fiercegear";
-    private final String pwd = "ipaq2210";
+    private final String pwd = "****";
     private final String driver = "com.mysql.cj.jdbc.Driver";
 
     public List<Notice> select() throws ClassNotFoundException, SQLException {

@@ -12,7 +12,7 @@ public class SelectQuery {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url = "jdbc:mysql://ledx-1.c0puka4oucjv.ap-northeast-2.rds.amazonaws.com/sampledb";
             //jdbc:mysql://aws 엔드포인트 주소/스키마명
-            conn = DriverManager.getConnection(url, "fiercegear", "ipaq2210");
+            conn = DriverManager.getConnection(url, "fiercegear", "****");
             //DB계정, 비밀번호 기입
 
             System.out.println("DB서버 연결 성공.");
